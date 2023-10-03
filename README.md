@@ -1,3 +1,3 @@
-# COMP229-M2021-Week2d
+# COMP229-Assignment 1
 
-Demo Project for COMP229 - Week 2
+Assignment 1
