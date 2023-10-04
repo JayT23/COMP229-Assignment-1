@@ -1,4 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <!--CSS-->
+  <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="/stylesheets/app.css">
+</head>
+<body>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg bg-dark-subtle">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/images/JT_logo.png" alt="Logo" width="35" height="35" class="d-inline-block align-text-top">
+        COMP229-Assignment 1</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/home"><i class="fa-solid fa-house-chimney-window fa-lg"></i> Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/about"><i class="fa-solid fa-circle-question fa-lg"></i> About Me</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="/projects"><i class="fa-solid fa-file-signature fa-lg"></i> Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/services"><i class="fa-solid fa-screwdriver-wrench fa-lg"></i> Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/contact"><i class="fa-solid fa-address-book fa-lg"></i> Contact Me</a>
+          </li>
+          
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
 <div class="container">
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <section class="about">
+        <img src="/images/JT_Photo.jpg"  width="250" height="300" alt="Jayson's Photo"><br>
+        <p>
+          Jayson Tuazon, a 35-year-old Filipino with a passion for technology and a heart full of ambition,
+           is a remarkable individual. With a zest for life, Jayson indulges in a variety of hobbies that reflect his diverse interests.
+            When he's not immersed in the world of coding, he can be found battling virtual foes in video games, exploring the 
+            captivating narratives of anime, whipping up delectable dishes in the kitchen, or embarking on exciting adventures 
+            to new destinations. Jayson is currently pursuing his dreams by studying Software Engineering Technician at Centennial 
+            College, which reflects his unwavering dedication and relentless pursuit of excellence in the field. His determination 
+            serves as an inspiration to all who have the privilege of knowing him as he continues to make strides towards achieving his 
+            goal of becoming a successful software engineer.<br>
+          Feel free to check out my <a href="https://drive.google.com/file/d/1dwldp5sKoWqGaglB4utoFMpN2Bhqwt8a/view?usp=sharing" target="_blank">resume (PDF)</a>.
+        </p>
+      </section>
+</div>
+
+<!--Footer-->
+<nav class="navbar fixed-bottom bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">COMP-229-Fall 2023-Assignment 1-Jayson Tuazon-301313973 &copy;</a>
   </div>
+</nav>
+
+  <!--Javascript-->  
+  <script src="jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/javascripts/app.js"></script>
+</body>
+</html>
